@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gf="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.statelitemenu.view.StateLiteMenuView
+        android:id="@+id/menuview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        gf:position="right_bottom"
+        gf:radius="150dip">
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_white_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+    </com.statelitemenu.view.StateLiteMenuView>
+
+    <com.statelitemenu.view.StateLiteMenuView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        gf:position="right_top"
+        gf:radius="150dip">
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_white_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+    </com.statelitemenu.view.StateLiteMenuView>
+
+    <com.statelitemenu.view.StateLiteMenuView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        gf:position="left_top"
+        gf:radius="150dip">
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_white_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+    </com.statelitemenu.view.StateLiteMenuView>
+
+    <com.statelitemenu.view.StateLiteMenuView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        gf:position="left_bottom"
+        gf:radius="150dip">
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_white_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:padding="5dip"
+            android:src="@mipmap/ic_black_piece" />
+    </com.statelitemenu.view.StateLiteMenuView>
+</RelativeLayout>
