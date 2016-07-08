@@ -154,7 +154,9 @@ public class StateLiteMenuView extends ViewGroup {
      * 改变子菜单状态
      */
     private void changeSubMenuState() {
-        int count = getChildCount();
+        //动画期间禁止点击主菜单
+        mainMenu.setClickable(false);
+        final int count = getChildCount();
         for (int i = 0; i < count - 1; i++) {
             final int index = i + 1;
             final View child = getChildAt(index);
@@ -190,6 +192,27 @@ public class StateLiteMenuView extends ViewGroup {
                 rotate.setDuration(300);
                 rotate.setFillAfter(true);
                 child.setClickable(true);
+                translate.setAnimationListener(new Animation.AnimationListener() {
+                    @Override
+                    public void onAnimationStart(Animation animation) {
+
+                    }
+
+                    @Override
+                    public void onAnimationEnd(Animation animation) {
+                        /**
+                         * 加载完毕动画 ,主菜单设置可点击
+                         */
+                        if (index == count - 1) {
+                            mainMenu.setClickable(true);
+                        }
+                    }
+
+                    @Override
+                    public void onAnimationRepeat(Animation animation) {
+
+                    }
+                });
             }
             //当前菜单打开状态
             else {
@@ -208,6 +231,9 @@ public class StateLiteMenuView extends ViewGroup {
                     @Override
                     public void onAnimationEnd(Animation animation) {
                         child.setVisibility(View.GONE);
+                        if (index == count - 1) {
+                            mainMenu.setClickable(true);
+                        }
                     }
 
                     @Override
